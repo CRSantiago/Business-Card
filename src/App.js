@@ -4,9 +4,11 @@ import Links from './components/Links'
 
 function App() {
   return (
-    <div className="App">
-      <Info />
-      <Links />
+    <div className="App--container">
+      <div className="App">
+        <Info />
+        <Links />
+      </div>
     </div>
   );
 }
